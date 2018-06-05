@@ -10,7 +10,8 @@
 #import "Box.h"
 
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) 
+{
     @autoreleasepool
     {
         Box *box1 = [[Box alloc] initWithLength:12.0 width:14.0 height:3.0];
